@@ -1,4 +1,5 @@
 ﻿Imports MySql.Data.MySqlClient
+
 Public Class Form1
     Private connectionString As String = "Server=localhost; Database=estate_visitor_system; Uid=root; Pwd=@Mutwiri77;"
 
@@ -39,4 +40,11 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Initialization code if needed
     End Sub
+
+    Private Sub btnSignUp_Click(sender As Object, e As EventArgs) Handles btnSignUp.Click
+        ' Create a new instance of Form5 and pass the current instance of Form1
+        Dim signupForm As New Form5(Me)
+        signupForm.ShowDialog() ' Use ShowDialog to ensure it behaves as a modal dialog
+    End Sub
+
 End Class
