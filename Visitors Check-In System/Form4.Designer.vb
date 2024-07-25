@@ -26,8 +26,8 @@ Partial Class Form4
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.btnBack1 = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -70,38 +70,38 @@ Partial Class Form4
         Me.DataGridView2.Size = New System.Drawing.Size(376, 233)
         Me.DataGridView2.TabIndex = 13
         '
-        'Button1
+        'btnBack1
         '
-        Me.Button1.BackColor = System.Drawing.Color.Black
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(267, 368)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(112, 33)
-        Me.Button1.TabIndex = 23
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnBack1.BackColor = System.Drawing.Color.Black
+        Me.btnBack1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBack1.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBack1.ForeColor = System.Drawing.Color.White
+        Me.btnBack1.Location = New System.Drawing.Point(267, 368)
+        Me.btnBack1.Name = "btnBack1"
+        Me.btnBack1.Size = New System.Drawing.Size(112, 33)
+        Me.btnBack1.TabIndex = 23
+        Me.btnBack1.Text = "Back"
+        Me.btnBack1.UseVisualStyleBackColor = False
         '
-        'Button5
+        'btnExit
         '
-        Me.Button5.BackColor = System.Drawing.Color.Red
-        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button5.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(412, 368)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(112, 33)
-        Me.Button5.TabIndex = 29
-        Me.Button5.Text = "EXIT"
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.btnExit.BackColor = System.Drawing.Color.Red
+        Me.btnExit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnExit.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.Location = New System.Drawing.Point(412, 368)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(112, 33)
+        Me.btnExit.TabIndex = 29
+        Me.btnExit.Text = "EXIT"
+        Me.btnExit.UseVisualStyleBackColor = False
         '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.btnBack1)
         Me.Controls.Add(Me.DataGridView2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
@@ -119,6 +119,6 @@ Partial Class Form4
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Label1 As Label
     Friend WithEvents DataGridView2 As DataGridView
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button5 As Button
+    Friend WithEvents btnBack1 As Button
+    Friend WithEvents btnExit As Button
 End Class

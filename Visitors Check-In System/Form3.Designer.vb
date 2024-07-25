@@ -35,13 +35,13 @@ Partial Class Form3
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.btnBack = New System.Windows.Forms.Button()
+        Me.btnVisitors = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
+        Me.btnApprove = New System.Windows.Forms.Button()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label4
@@ -163,53 +163,53 @@ Partial Class Form3
         Me.ComboBox3.Size = New System.Drawing.Size(165, 21)
         Me.ComboBox3.TabIndex = 21
         '
-        'Button1
+        'btnBack
         '
-        Me.Button1.BackColor = System.Drawing.Color.Black
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(266, 387)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(112, 33)
-        Me.Button1.TabIndex = 22
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnBack.BackColor = System.Drawing.Color.Black
+        Me.btnBack.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBack.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBack.ForeColor = System.Drawing.Color.White
+        Me.btnBack.Location = New System.Drawing.Point(266, 387)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(112, 33)
+        Me.btnBack.TabIndex = 22
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnVisitors
         '
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(415, 387)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(112, 33)
-        Me.Button2.TabIndex = 23
-        Me.Button2.Text = "Visitors"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnVisitors.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnVisitors.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVisitors.Location = New System.Drawing.Point(415, 387)
+        Me.btnVisitors.Name = "btnVisitors"
+        Me.btnVisitors.Size = New System.Drawing.Size(112, 33)
+        Me.btnVisitors.TabIndex = 23
+        Me.btnVisitors.Text = "Visitors"
+        Me.btnVisitors.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnClear
         '
-        Me.Button3.BackColor = System.Drawing.Color.Red
-        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(509, 163)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(112, 33)
-        Me.Button3.TabIndex = 24
-        Me.Button3.Text = "Clear"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.btnClear.BackColor = System.Drawing.Color.Red
+        Me.btnClear.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnClear.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClear.Location = New System.Drawing.Point(509, 163)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(112, 33)
+        Me.btnClear.TabIndex = 24
+        Me.btnClear.Text = "Clear"
+        Me.btnClear.UseVisualStyleBackColor = False
         '
-        'Button4
+        'btnApprove
         '
-        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button4.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(509, 224)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(112, 33)
-        Me.Button4.TabIndex = 25
-        Me.Button4.Text = "Approve"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.btnApprove.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnApprove.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnApprove.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnApprove.Location = New System.Drawing.Point(509, 224)
+        Me.btnApprove.Name = "btnApprove"
+        Me.btnApprove.Size = New System.Drawing.Size(112, 33)
+        Me.btnApprove.TabIndex = 25
+        Me.btnApprove.Text = "Approve"
+        Me.btnApprove.UseVisualStyleBackColor = False
         '
         'Label8
         '
@@ -229,30 +229,30 @@ Partial Class Form3
         Me.DateTimePicker1.Size = New System.Drawing.Size(108, 20)
         Me.DateTimePicker1.TabIndex = 27
         '
-        'Button5
+        'btnExit
         '
-        Me.Button5.BackColor = System.Drawing.Color.Red
-        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button5.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(562, 387)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(112, 33)
-        Me.Button5.TabIndex = 28
-        Me.Button5.Text = "EXIT"
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.btnExit.BackColor = System.Drawing.Color.Red
+        Me.btnExit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnExit.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.Location = New System.Drawing.Point(562, 387)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(112, 33)
+        Me.btnExit.TabIndex = 28
+        Me.btnExit.Text = "EXIT"
+        Me.btnExit.UseVisualStyleBackColor = False
         '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnApprove)
+        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.btnVisitors)
+        Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.ComboBox3)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
@@ -286,11 +286,11 @@ Partial Class Form3
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents btnBack As Button
+    Friend WithEvents btnVisitors As Button
+    Friend WithEvents btnClear As Button
+    Friend WithEvents btnApprove As Button
     Friend WithEvents Label8 As Label
     Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents Button5 As Button
+    Friend WithEvents btnExit As Button
 End Class

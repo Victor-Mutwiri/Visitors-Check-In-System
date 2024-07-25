@@ -23,24 +23,24 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.ExitPicture = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.btnCheckIn = New System.Windows.Forms.Button()
+        Me.btnCheckout = New System.Windows.Forms.Button()
+        CType(Me.ExitPicture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PictureBox3
+        'ExitPicture
         '
-        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(361, 271)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(116, 84)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
+        Me.ExitPicture.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ExitPicture.Image = CType(resources.GetObject("ExitPicture.Image"), System.Drawing.Image)
+        Me.ExitPicture.Location = New System.Drawing.Point(361, 271)
+        Me.ExitPicture.Name = "ExitPicture"
+        Me.ExitPicture.Size = New System.Drawing.Size(116, 84)
+        Me.ExitPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.ExitPicture.TabIndex = 2
+        Me.ExitPicture.TabStop = False
         '
         'Label3
         '
@@ -64,25 +64,25 @@ Partial Class Form2
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Welcome"
         '
-        'Button1
+        'btnCheckIn
         '
-        Me.Button1.Font = New System.Drawing.Font("Lucida Bright", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(257, 159)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(126, 71)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "CHECK-IN"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnCheckIn.Font = New System.Drawing.Font("Lucida Bright", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCheckIn.Location = New System.Drawing.Point(257, 159)
+        Me.btnCheckIn.Name = "btnCheckIn"
+        Me.btnCheckIn.Size = New System.Drawing.Size(126, 71)
+        Me.btnCheckIn.TabIndex = 9
+        Me.btnCheckIn.Text = "CHECK-IN"
+        Me.btnCheckIn.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnCheckout
         '
-        Me.Button2.Font = New System.Drawing.Font("Lucida Bright", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(451, 159)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(142, 71)
-        Me.Button2.TabIndex = 10
-        Me.Button2.Text = "CHECKOUT"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnCheckout.Font = New System.Drawing.Font("Lucida Bright", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCheckout.Location = New System.Drawing.Point(451, 159)
+        Me.btnCheckout.Name = "btnCheckout"
+        Me.btnCheckout.Size = New System.Drawing.Size(142, 71)
+        Me.btnCheckout.TabIndex = 10
+        Me.btnCheckout.Text = "CHECKOUT"
+        Me.btnCheckout.UseVisualStyleBackColor = True
         '
         'Form2
         '
@@ -90,21 +90,21 @@ Partial Class Form2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnCheckout)
+        Me.Controls.Add(Me.btnCheckIn)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.ExitPicture)
         Me.Name = "Form2"
         Me.Text = "Form2"
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ExitPicture, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents ExitPicture As PictureBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnCheckIn As Button
+    Friend WithEvents btnCheckout As Button
 End Class
