@@ -29,18 +29,18 @@ Partial Class Form3
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.cmbVisitType = New System.Windows.Forms.ComboBox()
+        Me.txtNames = New System.Windows.Forms.TextBox()
+        Me.cmbHouseNo = New System.Windows.Forms.ComboBox()
+        Me.txtIDNo = New System.Windows.Forms.TextBox()
+        Me.txtPhoneNo = New System.Windows.Forms.TextBox()
+        Me.cmbMultiDayVisit = New System.Windows.Forms.ComboBox()
         Me.btnBack = New System.Windows.Forms.Button()
         Me.btnVisitors = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnApprove = New System.Windows.Forms.Button()
+        Me.btnCheckIn = New System.Windows.Forms.Button()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.dtpVisitDate = New System.Windows.Forms.DateTimePicker()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -115,53 +115,53 @@ Partial Class Form3
         Me.Label7.TabIndex = 15
         Me.Label7.Text = "Multi day Visit?"
         '
-        'ComboBox1
+        'cmbVisitType
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Visitor", "Resident", "Worker"})
-        Me.ComboBox1.Location = New System.Drawing.Point(292, 70)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(165, 21)
-        Me.ComboBox1.TabIndex = 16
+        Me.cmbVisitType.FormattingEnabled = True
+        Me.cmbVisitType.Items.AddRange(New Object() {"Visitor", "Resident", "Worker"})
+        Me.cmbVisitType.Location = New System.Drawing.Point(292, 70)
+        Me.cmbVisitType.Name = "cmbVisitType"
+        Me.cmbVisitType.Size = New System.Drawing.Size(165, 21)
+        Me.cmbVisitType.TabIndex = 16
         '
-        'TextBox1
+        'txtNames
         '
-        Me.TextBox1.Location = New System.Drawing.Point(292, 121)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(165, 20)
-        Me.TextBox1.TabIndex = 17
+        Me.txtNames.Location = New System.Drawing.Point(292, 121)
+        Me.txtNames.Name = "txtNames"
+        Me.txtNames.Size = New System.Drawing.Size(165, 20)
+        Me.txtNames.TabIndex = 17
         '
-        'ComboBox2
+        'cmbHouseNo
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26"})
-        Me.ComboBox2.Location = New System.Drawing.Point(292, 163)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(165, 21)
-        Me.ComboBox2.TabIndex = 18
+        Me.cmbHouseNo.FormattingEnabled = True
+        Me.cmbHouseNo.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26"})
+        Me.cmbHouseNo.Location = New System.Drawing.Point(292, 163)
+        Me.cmbHouseNo.Name = "cmbHouseNo"
+        Me.cmbHouseNo.Size = New System.Drawing.Size(165, 21)
+        Me.cmbHouseNo.TabIndex = 18
         '
-        'TextBox2
+        'txtIDNo
         '
-        Me.TextBox2.Location = New System.Drawing.Point(292, 207)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(165, 20)
-        Me.TextBox2.TabIndex = 19
+        Me.txtIDNo.Location = New System.Drawing.Point(292, 207)
+        Me.txtIDNo.Name = "txtIDNo"
+        Me.txtIDNo.Size = New System.Drawing.Size(165, 20)
+        Me.txtIDNo.TabIndex = 19
         '
-        'TextBox3
+        'txtPhoneNo
         '
-        Me.TextBox3.Location = New System.Drawing.Point(292, 248)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(165, 20)
-        Me.TextBox3.TabIndex = 20
+        Me.txtPhoneNo.Location = New System.Drawing.Point(292, 248)
+        Me.txtPhoneNo.Name = "txtPhoneNo"
+        Me.txtPhoneNo.Size = New System.Drawing.Size(165, 20)
+        Me.txtPhoneNo.TabIndex = 20
         '
-        'ComboBox3
+        'cmbMultiDayVisit
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"Yes", "No"})
-        Me.ComboBox3.Location = New System.Drawing.Point(292, 296)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(165, 21)
-        Me.ComboBox3.TabIndex = 21
+        Me.cmbMultiDayVisit.FormattingEnabled = True
+        Me.cmbMultiDayVisit.Items.AddRange(New Object() {"Yes", "No"})
+        Me.cmbMultiDayVisit.Location = New System.Drawing.Point(292, 296)
+        Me.cmbMultiDayVisit.Name = "cmbMultiDayVisit"
+        Me.cmbMultiDayVisit.Size = New System.Drawing.Size(165, 21)
+        Me.cmbMultiDayVisit.TabIndex = 21
         '
         'btnBack
         '
@@ -199,17 +199,17 @@ Partial Class Form3
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = False
         '
-        'btnApprove
+        'btnCheckIn
         '
-        Me.btnApprove.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnApprove.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnApprove.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnApprove.Location = New System.Drawing.Point(509, 224)
-        Me.btnApprove.Name = "btnApprove"
-        Me.btnApprove.Size = New System.Drawing.Size(112, 33)
-        Me.btnApprove.TabIndex = 25
-        Me.btnApprove.Text = "Approve"
-        Me.btnApprove.UseVisualStyleBackColor = False
+        Me.btnCheckIn.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnCheckIn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCheckIn.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCheckIn.Location = New System.Drawing.Point(509, 224)
+        Me.btnCheckIn.Name = "btnCheckIn"
+        Me.btnCheckIn.Size = New System.Drawing.Size(112, 33)
+        Me.btnCheckIn.TabIndex = 25
+        Me.btnCheckIn.Text = "Checkin"
+        Me.btnCheckIn.UseVisualStyleBackColor = False
         '
         'Label8
         '
@@ -221,13 +221,13 @@ Partial Class Form3
         Me.Label8.TabIndex = 26
         Me.Label8.Text = "Date:"
         '
-        'DateTimePicker1
+        'dtpVisitDate
         '
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(581, 70)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(108, 20)
-        Me.DateTimePicker1.TabIndex = 27
+        Me.dtpVisitDate.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtpVisitDate.Location = New System.Drawing.Point(581, 70)
+        Me.dtpVisitDate.Name = "dtpVisitDate"
+        Me.dtpVisitDate.Size = New System.Drawing.Size(108, 20)
+        Me.dtpVisitDate.TabIndex = 27
         '
         'btnExit
         '
@@ -247,18 +247,18 @@ Partial Class Form3
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.btnExit)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.dtpVisitDate)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.btnApprove)
+        Me.Controls.Add(Me.btnCheckIn)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnVisitors)
         Me.Controls.Add(Me.btnBack)
-        Me.Controls.Add(Me.ComboBox3)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.cmbMultiDayVisit)
+        Me.Controls.Add(Me.txtPhoneNo)
+        Me.Controls.Add(Me.txtIDNo)
+        Me.Controls.Add(Me.cmbHouseNo)
+        Me.Controls.Add(Me.txtNames)
+        Me.Controls.Add(Me.cmbVisitType)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -280,17 +280,17 @@ Partial Class Form3
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents cmbVisitType As ComboBox
+    Friend WithEvents txtNames As TextBox
+    Friend WithEvents cmbHouseNo As ComboBox
+    Friend WithEvents txtIDNo As TextBox
+    Friend WithEvents txtPhoneNo As TextBox
+    Friend WithEvents cmbMultiDayVisit As ComboBox
     Friend WithEvents btnBack As Button
     Friend WithEvents btnVisitors As Button
     Friend WithEvents btnClear As Button
-    Friend WithEvents btnApprove As Button
+    Friend WithEvents btnCheckIn As Button
     Friend WithEvents Label8 As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents dtpVisitDate As DateTimePicker
     Friend WithEvents btnExit As Button
 End Class
