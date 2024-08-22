@@ -29,7 +29,7 @@ Partial Class Form1
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.btnSignUp = New System.Windows.Forms.Button()
+        Me.btnAdmin = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'txtUsername
@@ -99,16 +99,16 @@ Partial Class Form1
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Digital Security"
         '
-        'btnSignUp
+        'btnAdmin
         '
-        Me.btnSignUp.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnSignUp.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSignUp.Location = New System.Drawing.Point(490, 297)
-        Me.btnSignUp.Name = "btnSignUp"
-        Me.btnSignUp.Size = New System.Drawing.Size(112, 33)
-        Me.btnSignUp.TabIndex = 10
-        Me.btnSignUp.Text = "SignUp"
-        Me.btnSignUp.UseVisualStyleBackColor = True
+        Me.btnAdmin.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnAdmin.Font = New System.Drawing.Font("MS PGothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAdmin.Location = New System.Drawing.Point(467, 297)
+        Me.btnAdmin.Name = "btnAdmin"
+        Me.btnAdmin.Size = New System.Drawing.Size(112, 33)
+        Me.btnAdmin.TabIndex = 11
+        Me.btnAdmin.Text = "Admin"
+        Me.btnAdmin.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -116,7 +116,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.btnSignUp)
+        Me.Controls.Add(Me.btnAdmin)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.btnLogin)
@@ -138,5 +138,5 @@ Partial Class Form1
     Friend WithEvents btnLogin As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents btnSignUp As Button
+    Friend WithEvents btnAdmin As Button
 End Class
